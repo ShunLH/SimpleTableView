@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF133E7923113D0500FE39E9 /* CustomSectionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF133E7723113D0500FE39E9 /* CustomSectionHeaderTableViewCell.swift */; };
+		EF133E7A23113D0500FE39E9 /* CustomSectionHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF133E7823113D0500FE39E9 /* CustomSectionHeaderTableViewCell.xib */; };
+		EF133E7C23113EE100FE39E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF133E7B23113EE100FE39E9 /* Extensions.swift */; };
+		EF133E7F2311445100FE39E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF133E7E2311445100FE39E9 /* CardView.swift */; };
+		EF133E81231157C200FE39E9 /* CustomTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF133E80231157C200FE39E9 /* CustomTableHeaderView.swift */; };
+		EF133E83231158B400FE39E9 /* HeaderTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF133E82231158B400FE39E9 /* HeaderTestViewController.swift */; };
 		EF362D8223095A95001384D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362D8123095A95001384D8 /* AppDelegate.swift */; };
 		EF362D8423095A95001384D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362D8323095A95001384D8 /* ViewController.swift */; };
 		EF362D8723095A95001384D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF362D8523095A95001384D8 /* Main.storyboard */; };
 		EF362D8923095A95001384D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF362D8823095A95001384D8 /* Assets.xcassets */; };
 		EF362D8C23095A95001384D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF362D8A23095A95001384D8 /* LaunchScreen.storyboard */; };
+		EF362D9A23095B87001384D8 /* QuotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362D9823095B87001384D8 /* QuotesTableViewCell.swift */; };
+		EF362D9B23095B87001384D8 /* QuotesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF362D9923095B87001384D8 /* QuotesTableViewCell.xib */; };
+		EF362D9F2309629A001384D8 /* QuotesVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362D9E2309629A001384D8 /* QuotesVO.swift */; };
+		EF362DA4230969FF001384D8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362DA3230969FF001384D8 /* Router.swift */; };
+		EF362DA623096A94001384D8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362DA523096A94001384D8 /* AppConstants.swift */; };
+		EF362DA823096B68001384D8 /* QuotesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF362DA723096B68001384D8 /* QuotesDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF133E7723113D0500FE39E9 /* CustomSectionHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		EF133E7823113D0500FE39E9 /* CustomSectionHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSectionHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		EF133E7B23113EE100FE39E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EF133E7E2311445100FE39E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EF133E80231157C200FE39E9 /* CustomTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableHeaderView.swift; sourceTree = "<group>"; };
+		EF133E82231158B400FE39E9 /* HeaderTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTestViewController.swift; sourceTree = "<group>"; };
 		EF362D7E23095A95001384D8 /* SimpleTableViewPADC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableViewPADC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF362D8123095A95001384D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF362D8323095A95001384D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,12 @@
 		EF362D8823095A95001384D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF362D8B23095A95001384D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF362D8D23095A95001384D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF362D9823095B87001384D8 /* QuotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTableViewCell.swift; sourceTree = "<group>"; };
+		EF362D9923095B87001384D8 /* QuotesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuotesTableViewCell.xib; sourceTree = "<group>"; };
+		EF362D9E2309629A001384D8 /* QuotesVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesVO.swift; sourceTree = "<group>"; };
+		EF362DA3230969FF001384D8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EF362DA523096A94001384D8 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		EF362DA723096B68001384D8 /* QuotesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF133E7D2311442D00FE39E9 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EF133E7E2311445100FE39E9 /* CardView.swift */,
+				EF133E80231157C200FE39E9 /* CustomTableHeaderView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		EF362D7523095A95001384D8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +87,89 @@
 		EF362D8023095A95001384D8 /* SimpleTableViewPADC */ = {
 			isa = PBXGroup;
 			children = (
+				EF133E7D2311442D00FE39E9 /* components */,
+				EF362DA2230968C0001384D8 /* utils */,
+				EF362DA123096342001384D8 /* storyboards */,
+				EF362DA023096329001384D8 /* viewControllers */,
+				EF362D9C2309627E001384D8 /* data */,
+				EF362D9323095B3B001384D8 /* cells */,
 				EF362D8123095A95001384D8 /* AppDelegate.swift */,
-				EF362D8323095A95001384D8 /* ViewController.swift */,
-				EF362D8523095A95001384D8 /* Main.storyboard */,
 				EF362D8823095A95001384D8 /* Assets.xcassets */,
 				EF362D8A23095A95001384D8 /* LaunchScreen.storyboard */,
 				EF362D8D23095A95001384D8 /* Info.plist */,
 			);
 			path = SimpleTableViewPADC;
+			sourceTree = "<group>";
+		};
+		EF362D9323095B3B001384D8 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF362D9523095B4C001384D8 /* xibs */,
+				EF362D9423095B43001384D8 /* swifts */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		EF362D9423095B43001384D8 /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				EF133E7723113D0500FE39E9 /* CustomSectionHeaderTableViewCell.swift */,
+				EF362D9823095B87001384D8 /* QuotesTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		EF362D9523095B4C001384D8 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				EF133E7823113D0500FE39E9 /* CustomSectionHeaderTableViewCell.xib */,
+				EF362D9923095B87001384D8 /* QuotesTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		EF362D9C2309627E001384D8 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EF362D9D23096289001384D8 /* vos */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EF362D9D23096289001384D8 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				EF362D9E2309629A001384D8 /* QuotesVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		EF362DA023096329001384D8 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF362D8323095A95001384D8 /* ViewController.swift */,
+				EF362DA723096B68001384D8 /* QuotesDetailsViewController.swift */,
+				EF133E82231158B400FE39E9 /* HeaderTestViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		EF362DA123096342001384D8 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF362D8523095A95001384D8 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		EF362DA2230968C0001384D8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF362DA3230969FF001384D8 /* Router.swift */,
+				EF362DA523096A94001384D8 /* AppConstants.swift */,
+				EF133E7B23113EE100FE39E9 /* Extensions.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +230,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF362D9B23095B87001384D8 /* QuotesTableViewCell.xib in Resources */,
+				EF133E7A23113D0500FE39E9 /* CustomSectionHeaderTableViewCell.xib in Resources */,
 				EF362D8C23095A95001384D8 /* LaunchScreen.storyboard in Resources */,
 				EF362D8923095A95001384D8 /* Assets.xcassets in Resources */,
 				EF362D8723095A95001384D8 /* Main.storyboard in Resources */,
@@ -136,7 +246,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF362D8423095A95001384D8 /* ViewController.swift in Sources */,
+				EF133E83231158B400FE39E9 /* HeaderTestViewController.swift in Sources */,
+				EF133E7C23113EE100FE39E9 /* Extensions.swift in Sources */,
+				EF362DA623096A94001384D8 /* AppConstants.swift in Sources */,
+				EF133E81231157C200FE39E9 /* CustomTableHeaderView.swift in Sources */,
+				EF362D9F2309629A001384D8 /* QuotesVO.swift in Sources */,
+				EF133E7F2311445100FE39E9 /* CardView.swift in Sources */,
+				EF362DA823096B68001384D8 /* QuotesDetailsViewController.swift in Sources */,
+				EF362DA4230969FF001384D8 /* Router.swift in Sources */,
+				EF133E7923113D0500FE39E9 /* CustomSectionHeaderTableViewCell.swift in Sources */,
 				EF362D8223095A95001384D8 /* AppDelegate.swift in Sources */,
+				EF362D9A23095B87001384D8 /* QuotesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
